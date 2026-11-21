@@ -1,0 +1,5 @@
+[
+  {"id": "robot-management", "disabled": true},
+  {"id": "robot-sharing", "disabled": true},
+  {"id": "robot-ui", "disabled": true}
+]

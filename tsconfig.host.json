@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@deepseek-ai/dsh-typert-protocol": ["./.build/typert-protocol-facade.d.ts"],
+      "@robot-build/typert-protocol-actual": ["./node_modules/@deepseek-ai/dsh-typert-protocol"]
+    }
+  },
+  "files": [],
+  "include": [],
+  "references": [{ "path": "./packages/robot" }]
+}

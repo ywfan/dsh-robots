@@ -1,0 +1,13 @@
+# 将此顶层列表项合入桌面 profile 补丁，先替换路径与实际版本。
+- insert:
+    - id: robot-management
+      name: '@fanbo/dsh-robot'
+      config:
+        dataDir: '/absolute/path/to/robot-data'
+        workspaceRoot: '/absolute/path/to/projects'
+        hostVersion: '0.2.2-rc.5'
+        autoRetrospective: true
+    - id: robot-sharing
+      name: '@fanbo/dsh-robot/sharing'
+    - id: robot-ui
+      name: '@fanbo/dsh-ui-robot'
